@@ -1,0 +1,1 @@
+{"version":3,"sources":["font.scss"],"names":[],"mappings":"AAAA,4FAAY","file":"font.css","sourcesContent":["@import url(\"https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap\");\r\n\r\n$fontFamily: \"Roboto\", sans-serif;\r\n$fontStyle: normal;\r\n$fontWeight: 400;\r\n"]}
