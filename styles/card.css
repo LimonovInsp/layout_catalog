@@ -117,6 +117,8 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
   max-width: 200px;
   height: 403px;
   background-color: #fff;
@@ -124,14 +126,6 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 5px; }
-
-.card__name_family, .card__code_family,
-.card__description_family,
-.card__price_family,
-.card__digit_family,
-.card__buy-family {
-  font-family: "Roboto", sans-serif;
-  font-style: normal; }
 
 .card__monitor {
   width: 160px;
@@ -173,7 +167,7 @@
   background-image: url("../images/star-active.svg");
   background-repeat: no-repeat; }
 
-.card__stars .card__star:nth-child(n + 5) {
+.card__stars .card__star:nth-last-child(-n+1) {
   background-image: url("../images/star.svg"); }
 
 .card__description {
