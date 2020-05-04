@@ -127,7 +127,7 @@
           box-sizing: border-box;
   border-radius: 5px; }
 
-.card__monitor {
+.card__goods {
   width: 160px;
   height: 134px;
   -ms-flex-item-align: center;
@@ -155,7 +155,7 @@
       -ms-flex-pack: justify;
           justify-content: space-between; }
 
-.card__stars {
+.card__stars_4 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
@@ -164,11 +164,15 @@
   margin-right: 4px;
   height: 15px;
   width: 15px;
-  background-image: url("../images/star-active.svg");
+  background-image: url("../images/star.svg");
   background-repeat: no-repeat; }
 
-.card__stars .card__star:nth-last-child(-n+1) {
-  background-image: url("../images/star.svg"); }
+.card__stars_5 .card__star,
+.card__stars_1 .card__star:first-child,
+.card__stars_2 .card__star:nth-child(-n+2),
+.card__stars_3 .card__star:nth-child(-n+3),
+.card__stars_4 .card__star:nth-child(-n+4) {
+  background-image: url("../images/star-active.svg"); }
 
 .card__description {
   font-weight: 400;
@@ -222,7 +226,6 @@
 .card__buy:hover {
   color: #00acdc;
   background-color: #fff;
-  border: 1px solid #00acdc;
   border-radius: 5px; }
 
 /*# sourceMappingURL=card.css.map */
